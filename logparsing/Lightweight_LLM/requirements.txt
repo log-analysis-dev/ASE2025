@@ -1,0 +1,5 @@
+transformers==4.45.2 
+pymongo
+torch
+python-dotenv
+pandas
