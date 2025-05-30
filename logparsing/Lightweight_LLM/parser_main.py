@@ -13,23 +13,6 @@ HF_TOKEN = os.getenv('HF_TOKEN')
 # from pymongo import MongoClient
 import re
 
-# mongo_uri = "mongodb+srv://username:pw@llm.uqk1w.mongodb.net/?retryWrites=true&w=majority&appName=llm&tlsAllowInvalidCertificates=true"
-# db_name = "ai"
-# collection_name = "model_parsing_history"
-
-# # Connect to MongoDB
-# try:
-#   client = MongoClient(mongo_uri)
-#   client.admin.command("ping")
-#   print("MongoDB connection successful!")
-# except Exception as e:
-#   print(f"Error connecting to MongoDB: {e}")
-
-# # Access db and connection
-# db = client[db_name]
-# collection = db[collection_name]
-
-
 # Function to process the 'answer_by_model' column
 def process_answer_by_model(answer_text):
     """
